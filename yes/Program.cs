@@ -35,7 +35,7 @@ Console.WriteLine("5.feladat: \n");
 
 Console.WriteLine($"A Boeing típusok száma: {items.Where(n => n.tipus.Contains("Boeing")).Count()}");
 
-Console.WriteLine("7.feladat: \n");
+Console.WriteLine("6.feladat: \n");
 
 foreach (var item in items)
 {
