@@ -14,19 +14,19 @@ namespace yes
         public double ev;
         public string utas;
         public string szemelyzet;
+        public double Utazosebesseg;
         public double felszallo_tomeg;
         public double fesztav;
-        public double Utazosebesseg;
 
-        public Sebessegkategoria(string tipus, double ev, string utas, string szemelyzet, double felszallo_tomeg, double fesztav, double utazosebesseg)
+        public Sebessegkategoria(string tipus, double ev, string utas, string szemelyzet, double utazosebesseg, double felszallo_tomeg, double fesztav)
         {
             this.tipus = tipus;
             this.ev = ev;
             this.utas = utas;
             this.szemelyzet = szemelyzet;
+            this.Utazosebesseg = utazosebesseg;
             this.felszallo_tomeg = felszallo_tomeg;
             this.fesztav = fesztav;
-            Utazosebesseg = utazosebesseg;
         }
 
         public string Kategorianev
